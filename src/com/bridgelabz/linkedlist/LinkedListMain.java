@@ -13,5 +13,17 @@ public class LinkedListMain {
 
         linkedList1.display();
 
+
+        System.out.println("*******Append Operation*******");
+
+        LinkedList<Integer> linkedList2 = new LinkedList<>();
+        linkedList2.apendPush(56);
+        linkedList2.apendPush(30);
+        linkedList2.apendPush(70);
+
+       linkedList2.display();
+
+
+
     }
 }
