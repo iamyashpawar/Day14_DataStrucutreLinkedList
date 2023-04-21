@@ -23,11 +23,16 @@ public class LinkedListMain {
 
        linkedList2.display();
 
-        System.out.println("***Before Pop Method***");
+       System.out.println("***Before Pop Method***");
         linkedList2.display();
         Integer popElement =linkedList2.pop();
 
         System.out.println("***After Pop Method***");
+        linkedList2.display();
+
+
+        Integer popLastElement = linkedList2.popLast();
+        System.out.println(popLastElement);
         linkedList2.display();
 
 
