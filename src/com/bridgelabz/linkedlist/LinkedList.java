@@ -56,4 +56,12 @@ public class LinkedList<T> {
         }
         System.out.println();
     }
+
+
+
+    public T pop() {
+        T popElement = tail.data;
+        head   = head.next;
+        return popElement;
+    }
 }
